@@ -1,0 +1,58 @@
+body {background-color: black;
+     background-image: url(../images/pagebackground.png);
+     background-size: cover;
+    color: white;
+    
+}
+
+body.aboutme{
+    background-image:url(../images/topsters2.jpg);
+}
+
+h1 {font-size: 300%; 
+    font-family: Arial;
+
+}
+
+h2 {font-size: 150%;
+    font-family: Arial;
+
+}
+
+h3 { font-size: 125%;
+    font-family: Arial;
+
+}
+
+p { font-family: 'Arial Narrow Bold';
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+a { color: darkcyan;
+
+}
+a:hover {
+    color: cyan;
+}
+
+img {border-radius: 5px;
+
+}
+/* Navigation bar stuff */
+
+div.navbar {
+    background-color: black;
+    text-align: center;
+    
+}
+
+#navlist li{
+list-style-type: none;
+}
+#navlist a{
+    color:deepskyblue;
+}
+#navlist a:hover {
+    color:darkblue;
+}
